@@ -58,8 +58,8 @@ app.use(express.json());
 
 connectDB();
 
-app.get('/api',async (req,res) =>{
-    res.send("hello world")
+app.get('/',async (req,res) =>{
+    res.json({message:"hello world"})
 })
 
 app.post('/api/contact', async (req, res) => {
