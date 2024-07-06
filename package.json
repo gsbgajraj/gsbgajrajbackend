@@ -6,11 +6,11 @@
     "mongoose": "^8.4.5"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "keywords": [],
   "author": "",
