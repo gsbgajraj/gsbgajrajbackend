@@ -58,6 +58,10 @@ app.use(express.json());
 
 connectDB();
 
+app.get('/api',async (req,res) =>{
+    res.send("hello world")
+})
+
 app.post('/api/contact', async (req, res) => {
     const { name, email, phone, message } = req.body;
 
