@@ -10,7 +10,7 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "Contact.js",
+  "main": "server.js",
   "type": "module",
   "keywords": [],
   "author": "",
